@@ -9,3 +9,4 @@ echo export AWS_SECRET_ACCESS_KEY="$AWS_SECRET_ACCESS_KEY"
 AWS_SECURITY_TOKEN=$(echo $RET | awk '{print $5}')
 echo export AWS_SECURITY_TOKEN="$AWS_SECURITY_TOKEN"
 echo export AWS_SESSION_TOKEN="$AWS_SECURITY_TOKEN"
+echo export AWS_TOKEN_CREATED="$(date +%s)"
