@@ -1,1 +1,2 @@
 lastpass-cli --with-pinentry
+jq
